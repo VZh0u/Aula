@@ -1,6 +1,42 @@
-.nome{
-  background-color: #f2f2f2;
+.topicos{
+  padding-left: 10%;
+  padding-right: 10%;
 }
-.nome p{
-  
+.topicos p, h4, h5{
+  padding-left: 4%;
+}
+.topicos h3{
+  font-weight: bold;
+}
+body {
+  border-left: 250px solid black;
+  border-right: 250px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+#cabecalho{
+  background-color: #f2f2f2;
+
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 0px;
+  margin-left: 0px;
+  min-height: 0px;
+  margin-bottom: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.col1 {
+  padding-top: 6%;
+  padding-left: 2%;
+  flex-grow: 1;
+}
+.col2 {
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -ms-flex-positive: 1;
+      flex-grow: 0.4;
 }
