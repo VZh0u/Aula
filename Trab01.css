@@ -5,38 +5,46 @@
 .topicos p, h4, h5{
   padding-left: 4%;
 }
+ul{
+  padding-left: 6.7%;
+}
 .topicos h3{
   font-weight: bold;
 }
 body {
-  border-left: 250px solid black;
-  border-right: 250px solid black;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-left: 250px solid white;
+  border-right: 250px solid white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 #cabecalho{
   background-color: #f2f2f2;
-
 }
 .row {
   display: -ms-flexbox;
   display: flex;
-  margin-right: 0px;
-  margin-left: 0px;
-  min-height: 0px;
-  margin-bottom: 0px;
   padding-left: 10%;
   padding-right: 10%;
 }
 
-.col1 {
-  padding-top: 6%;
-  padding-left: 2%;
-  flex-grow: 1;
+.nome {
+  /* padding-top: 6%; */
+  /* padding-left: 2%; */
+  /* flex-grow: 1; */
+  float: left;
+  padding-top: 5%;
 }
-.col2 {
-  -ms-flex-preferred-size: 0;
-      flex-basis: 0;
-  -ms-flex-positive: 1;
-      flex-grow: 0.9;
+.dados-pessoais {
+  /* -ms-flex-preferred-size: 0; */
+      /* flex-basis: 0; */
+  /* -ms-flex-positive: 1; */
+      /* flex-grow: 1.2; */
+  float: right;
+  padding-left: 38%;
+}
+.curriculo{
+  border-left: 8px solid #f2f2f2;
+  border-right: 8px solid #f2f2f2;
+  border-top: 8px solid #f2f2f2;
+  border-bottom: 8px solid #f2f2f2;
 }
