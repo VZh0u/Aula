@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="bootstrap.css">
+  </head>
+  <body>
+
+    <div class="container" align="center">
+      <div class="row">
+        <div class="col-md pt-5 ">
+
+          <h3> Formulários de Cadastro </h3>
+          <hr>
+          <form action="" method="post" class="pt-3">
+            <!-- action, informa para onde os dados iram -->
+            <!-- post esconde os dados privados da url -->
+            <label>Nome: </label>
+            <input type="text" name="nome" value=""><br>
+            <label>Data de Nascimento: </label>
+            <input type="date" name="dtnasc" value=""><br>
+            <label>Email: </label>
+            <input type="email" name="email" value=""><br>
+            <label>Senha: </label>
+            <input type="password" name="senha" value=""><br>
+
+            <label>Cidade: </label>
+            <select name="cidade">
+              <!-- para relacionar a cidade escrita com a cidade no banco -->
+              <option value="">Selecione sua Cidade</option>
+              <option value="2">Alto Paraná</option>
+              <option value="3">Nova Esperança</option>
+              <option value="1">Paranavaí</option>
+            </select><br>
+
+            <button type="submit" class="p-1 mt-4 btn-primary">Salvar Dados</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
